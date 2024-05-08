@@ -44,7 +44,7 @@ function Navbar() {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
-      sx={{ pr: 14, display: "flex",justifyContent: 'center', textAlign:'center' }}
+      sx={{ pr: 14, display: "flex", textAlign:'center' }}
     >
       <Box>
         <Typography variant="h4" sx={{ m: 2 }}>
@@ -95,7 +95,7 @@ function Navbar() {
             </Box>
             <IconButton
               onClick={handleDrawerToggle}
-              sx={{ display: { sm: "none" } }}
+              sx={{ display: { md: "none" } }}
             >
               <MenuIcon />
             </IconButton>
@@ -109,7 +109,7 @@ function Navbar() {
             ModalProps={{
               keepMounted: true, // Better open performance on mobile.
             }}
-            sx={{ display: { xs: "block", sm: "none" } }}
+            sx={{ display: { xs: "block", md: "none" } }}
           >
             {drawer}
           </Drawer>

@@ -16,7 +16,7 @@ export const NavbarStyles = {
     flexGrow: 1,
   },
   linkContainer: {
-    display: {sm:'flex', xs:'none'},
+    display: {md:'flex', xs:'none'},
     gap: 3,
     mr: 20,
     textDecoration: 'none',
